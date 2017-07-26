@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>W3.CSS</title>
+<meta charset="utf-8">
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="dkit.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+<style>.w3-input[type="text"] {border-bottom:none;}a {text-decoration:none;}</style>
+
+</head>
+
+<body class="w3-mobile" style="width:400px; height:600px; background-image:url('danksep.png'); background-repeat:repeat-y; font-family:'Noto Sans',sans-serif;">
+
+<nav class="w3-sidenav w3-white w3-animate-left" style="width:280px;display:none;z-index:3;top:21px" id="mySidenav">
+<div class="w3-container w3-theme-d1">
+   <i onclick="w3_close()" style="padding-top:8px;padding-left:0px;font-size:28px" class="w3-closenav w3-left w3-animate-right material-icons">arrow_back</i>
+  <br>
+  <div class="w3-padding w3-center">
+    <img class="w3-circle" src="pp.png" alt="avatar" style="width:30%">
+  </div>
+</div>
+<br>
+<a href="#">Login</a>
+<fieldset disabled style="border:none;color:#ccc">
+<a href="#">My Account</a>
+<a href="#">Sixty Second Skills</a>
+<a href="#">Menu of the Day</a>
+<a href="#">Saved Recipes</a>
+</fieldset>
+<a href="EXsearchpage.html">Reading Room</a>
+
+<a href="about.html">About</a>
+</nav>
+
+
+
+<header class="w3-container w3-theme-d4" style="padding:3px 5px 0 5px">
+	<span style="font-size:12px" class="w3-right w3-cell-middle">17.45</span>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">battery_full</i>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">network_cell</i>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">network_wifi</i>
+		<span style="font-size:12px" class="w3-left">o2</span>
+		</header>
+		<div class="w3-container w3-card-2 w3-white w3-center">
+		<h6>
+			<i class="material-icons w3-opennav w3-left" style="font-size:24px" onclick="w3_open()">menu</i>
+				<span style="font-size:16px">The Recipe Archive</span>
+			<i class="w3-right material-icons" style="font-size:24px;cursor:pointer" onclick="w3_search()">search</i>
+		  
+					
+		</h6></div>
+
+		<div class="w3-container w3-theme w3-center" style="margin:0;font-size:14px">
+		<span style="font-weight:bold">Dan Kitchen</span> <span style="font-size:8px">in association with</span>  Instagram <img src="instagramXSw.png" alt="" style="margin-left:10px">
+		</div>
+
+		
+		<div class="w3-container w3-card w3-white w3-center" style="width:400px;display:none;z-index:2;position: fixed !important" id="mySearch">
+		
+		<div class="w3-row-padding">
+		
+		<div class="w3-threequarter">
+		<form>
+		<input class="w3-input w3-left" list="ingredients" type="text" placeholder="Search recipes by keyword..." >
+  <datalist id="ingredients">
+  <select>
+    <option value="Broccoli">
+    <option value="Pasta">
+    <option value="Cheese">
+    <option value="Butter">
+    <option value="Flour">
+	</select>
+	 </datalist>
+	 </form>
+	 </div>
+	 <div class="w3-quarter">
+		<i class="w3-right material-icons" style="margin-right:16px;font-size:24px;cursor:pointer"><a href="#">search</a></i>
+		</div>
+	 </div>
+	<p><a class="w3-button w3-small w3-theme-action w3-right" href="EXsearchpage.html" style="margin-bottom:8px">Advanced Search</a></p>
+	  
+		</div>
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="width:400px;cursor:pointer" id="myOverlay"></div>	
+
+<div class="w3-tooltip">
+<span style="position:absolute;left:200px;bottom:100px" class="w3-border w3-text w3-tiny w3-white w3-tag">Designer Note: Please pick instagram login for the story of Persona: Anna, pick email login for Persona: Oliver, or pick "Sign up" to see the registration process</span>
+
+<div class="w3-container" style="padding:150px 50px 193px 50px" onclick="w3_close();w3_searchclose()">
+
+
+    
+
+<div class="w3-row">
+
+    <div class="w3-col s12 w3-container">
+ 
+  <p>
+    <a class="w3-button w3-white w3-block" href="signInI.html" style="padding-right:0px"><img src="instagramXSw.png" alt="" style="margin-right:10px">Log in with Instagram </a>
+</p>
+  </div>
+</div>  
+
+<div class="w3-row">
+  
+  <div class="w3-col s12 w3-container">
+		<p>
+      <a class="w3-button w3-white w3-block" href="signInE.html">Log in with email</a>
+			</p>
+  </div>
+</div>
+
+<div class="w3-row">
+
+  <div class="w3-col s12 w3-container">
+	<p>
+	<a class="w3-button w3-white w3-block" href="signup.html">Sign up</a>
+   
+	</p>
+  </div>
+</div>
+
+</div>
+</div>
+
+<footer class="w3-container w3-theme-d4 w3-bottom" onclick="w3_close();w3_searchclose()" style="width:400px;height:20px">
+
+</footer>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+	document.getElementById("myOverlay").style.display = "block"
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+	document.getElementById("myOverlay").style.display = "none";
+}
+
+function w3_search() {
+	document.getElementById("mySearch").style.display = "block";
+}
+
+function w3_searchclose() {
+    document.getElementById("mySearch").style.display = "none";
+
+}
+</script>
+
+</body>

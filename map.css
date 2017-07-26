@@ -1,0 +1,56 @@
+.w3-theme-l5 {color:#000 !important; background-color:#f8f4f3 !important}
+.w3-theme-l4 {color:#000 !important; background-color:#e7dcd7 !important}
+/* .w3-theme-l3 {color:#000 !important; background-color:#d0b8b0 !important}
+.w3-theme-l2 {color:#fff !important; background-color:#b89588 !important}
+.w3-theme-l1 {color:#fff !important; background-color:#a07261 !important}
+.w3-theme-d1 {color:#fff !important; background-color:#616161 !important}
+.w3-theme-d2 {color:#fff !important; background-color:#61443a !important}
+.w3-theme-d3 {color:#fff !important; background-color:#553c33 !important}*/
+.w3-theme-d4 {color:#fff !important; background-color:#000 !important}
+/*.w3-theme-d5 {color:#fff !important; background-color:#3d2b24 !important}
+
+.w3-theme-light {color:#000 !important; background-color:#f5f5f5 !important}
+.w3-theme-dark {color:#fff !important; background-color:#3d2b24 !important}
+.w3-theme-action {color:#fff !important; background-color:#3d2b24 !important}
+*/
+.w3-theme {color:#fff !important; background-color:#515151 !important}
+/*.w3-text-theme {color:#795548 !important}
+.w3-text-theme-a  {color:#feb209 !important}
+.w3-text-theme-o  {color:#535640 !important}
+.w3-border-theme {border-color:#bdbdbd !important}
+.w3-button-theme {color:#212121 !important; background-color:#f5f5f5 !important}
+*/
+
+.w3-theme-gcu {color:#fff !important; background-color:#367bb3 !important}
+/*
+.w3-hover-theme:hover {color:#fff !important; background-color:#795548 !important}
+.w3-hover-text-theme:hover {color:#795548 !important}
+.w3-hover-border-theme:hover {border-color:#795548 !important}
+ */
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+

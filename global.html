@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Global Selector</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="map.css">
+<link rel="stylesheet" href="flags.css">
+<link rel="stylesheet" href="flags.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> 
+<style>
+ul.w3-ul li{
+padding-top:3px;
+border-bottom:0;
+font-size:13px;
+}
+
+a {text-decoration:none;}
+</style>
+</head>
+<body class="w3-mobile" style="width:400px; height:600px; font-family:'Noto Sans',sans-serif;background-image:url('splashback.png'); background-repeat:repeat-y; ">
+
+
+
+
+<header class="w3-container w3-theme-d4" style="padding:3px 5px 0 5px">
+	<span style="font-size:12px" class="w3-right w3-cell-middle">17.45</span>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">battery_full</i>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">network_cell</i>
+		<i class="material-icons w3-right" style="font-size:14px;margin-top:2px">network_wifi</i>
+		<span style="font-size:12px" class="w3-left">o2</span>
+		</header>
+		
+
+<div class="w3-container w3-white w3-center" style="margin:0 0 15px 0;font-size:14px">
+
+
+
+<h1>GCU Are Here</h1>
+<hr>
+<h5><i class="material-icons">language</i>Language settings</h5>
+</div>
+
+
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="width:400px;cursor:pointer" id="myOverlay"></div>	
+	
+<div class="w3-container w3-content" style="padding:5px 20px 0px 20px">
+
+<div class="w3-tooltip">
+<span style="position:absolute;left:200px;top:100px" class="w3-border w3-text w3-tiny w3-white w3-tag">Designer Note: Only English is available for demo purposes</span>
+<ul class="w3-ul w3-theme-light w3-card-4" style="padding:5px;margin:80px 10px 40px 10px">
+
+
+	<li><a class="w3-button w3-border w3-white w3-block" href="landing.html"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-gb" alt="English Language Option">Welcome<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-gb" alt="English Language Option"></a></li>
+    
+    <li><a href="#"><button class="w3-button w3-border w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-cn" alt="Mandarin Chinese Language Option">欢迎<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-cn" alt="Mandarin Chinese Language Option"></button></li>
+
+     <li><a href="#"><button class="w3-button w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-fr" alt="French Language Option">Bienvenue<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-fr" alt="French Language Option"></button></li>
+
+  
+        <li><a href="#"><button class="w3-button w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-it" alt="Italian Language Option">Benvenuto<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-it" alt="Italian Language Option"></button></li>
+
+        <li><a href="#"><button class="w3-button w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-pt" alt="Portuguese Language Option">Bem vinda<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-pt" alt="Portuguese Language Option"></button></li>
+	
+        <li><a href="#"><button class="w3-button w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-ru" alt="Russian Language Option">Добро пожаловать!<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-ru" alt="Russian Language Option"></button></li>
+
+        <li><a href="csEs.html"><button class="w3-button w3-border w3-white w3-block"><img src="blank.gif" style="margin-right:10px;margin-bottom:0px" class="flag flag-es" alt="Spanish Language Option">Bienvenido<img src="blank.gif" style="margin-left:10px;margin-bottom:0px" class="flag flag-es" alt="Spanish Language Option"></button></li>
+		
+		
+
+        
+</ul>
+</div>
+ </div>
+
+
+
+
+
+
+
+<footer class="w3-container w3-theme-d4 w3-bottom" onclick="w3_close();w3_searchclose()" style="width:400px;height:20px">
+
+</footer>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+	document.getElementById("myOverlay").style.display = "block"
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+	document.getElementById("myOverlay").style.display = "none";
+}
+
+function w3_search() {
+	document.getElementById("mySearch").style.display = "block";
+}
+
+function w3_searchclose() {
+    document.getElementById("mySearch").style.display = "none";
+	this.clear();
+}
+</script>
+
+</body>
